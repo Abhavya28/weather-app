@@ -1,16 +1,73 @@
-# React + Vite
+# 🌤️ AeroCast
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive weather application built with **React** that provides real-time weather information for searched locations.
 
-Currently, two official plugins are available:
+AeroCast uses the **Open-Meteo API** for geocoding and weather data, with a clean UI, smooth animations, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** — Frontend framework
+* **Tailwind CSS** — Styling & responsive design
+* **Lucide React** — Icons
+* **Framer Motion** — Animations
+* **Open-Meteo API** — Weather & geocoding data
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🌐 APIs Used
+
+### Geocoding API
+
+Used to search and retrieve location coordinates.
+
+```js
+const GEO_API = "https://geocoding-api.open-meteo.com/v1/search";
+```
+
+### Weather API
+
+Used to fetch weather and forecast information based on latitude and longitude.
+
+```js
+const WEATHER_API = "https://api.open-meteo.com/v1/forecast";
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Abhavya28/weather-app.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd weather-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+*Add screenshots of AeroCast here.*
+
+---
+
+⭐ If you like the project, consider giving the repository a star!
