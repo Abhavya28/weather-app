@@ -1,12 +1,12 @@
-import './index.css'
+import "./index.css";
+import Weather from "./components/weather";
 
 function App() {
-
   return (
     <>
-      <h1 className='text-blue-400'>Weather App</h1>
+      <Weather />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
