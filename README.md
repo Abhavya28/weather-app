@@ -66,7 +66,13 @@ npm run dev
 
 ## 📸 Preview
 
-*Add screenshots of AeroCast here.*
+### Home
+
+![AeroCast Home](./screenshots/home.png)
+
+### Weather Details
+
+![AeroCast Weather Details](./screenshots/weather.png)
 
 ---
 
