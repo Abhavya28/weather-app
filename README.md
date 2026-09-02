@@ -68,11 +68,11 @@ npm run dev
 
 ### Home
 
-![AeroCast Home](./screenshots/home.png)
+![AeroCast Home](./screenshots/snap1.png)
 
 ### Weather Details
 
-![AeroCast Weather Details](./screenshots/weather.png)
+![AeroCast Weather Details](./screenshots/snap2.png)
 
 ---
 
